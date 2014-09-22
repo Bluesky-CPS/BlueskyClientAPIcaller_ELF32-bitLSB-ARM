@@ -13,12 +13,12 @@ BlueskyClientAPIcaller_ELF32-bitLSB-ARM
 
    $> GPIO_PIN_NUMBER_OF_YOUR_DEFINE="3"
 
-   $> server="127.0.0.1:8189"
+   $> BLUESKYSERVER="127.0.0.1:8189"
 
-   $> SKYBLUECLIENT -c "http://${server}" -s "sensornetwork ${edIP} set d ${GPIO_PIN_NUMBER_OF_YOUR_DEFINE} 1"
+   $> SKYBLUECLIENT -c "http://${BLUESKYSERVER}" -s "sensornetwork ${edIP} set d ${GPIO_PIN_NUMBER_OF_YOUR_DEFINE} 1"
 
-   $> SKYBLUECLIENT -c "http://${server}" -s "sensornetwork ${edIP} get d ${GPIO_PIN_NUMBER_OF_YOUR_DEFINE}"
+   $> SKYBLUECLIENT -c "http://${BLUESKYSERVER}" -s "sensornetwork ${edIP} get d ${GPIO_PIN_NUMBER_OF_YOUR_DEFINE}"
 
-   $> SKYBLUECLIENT -c "http://${server}" -s "sensornetwork ${edIP} set d ${GPIO_PIN_NUMBER_OF_YOUR_DEFINE} 0"
+   $> SKYBLUECLIENT -c "http://${BLUESKYSERVER}" -s "sensornetwork ${edIP} set d ${GPIO_PIN_NUMBER_OF_YOUR_DEFINE} 0"
   
   ```
