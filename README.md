@@ -1,6 +1,6 @@
 BlueskyClientAPIcaller_ELF32-bitLSB-ARM
 ========================================
- Here is a client API caller(Demo version 1) of Blue-sky server binary execution for ELF32bit ARM such as Raspbian kernel. You can clone it and copy to executionable directory. (Cuation: It is not support for Private API now.)
+ Here is a client API caller(Demo version 1.0) of Blue-sky server binary execution for ELF32bit ARM such as Raspbian kernel. You can clone it and copy to executionable directory. (Cuation: It is not support for Private API now.)
 
  **For example (Linux):**
 
