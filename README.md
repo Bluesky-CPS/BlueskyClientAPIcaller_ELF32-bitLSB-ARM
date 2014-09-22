@@ -1,11 +1,13 @@
 BlueskyClientAPIcaller_ELF32-bitLSB-ARM
 ========================================
- Here is a client API caller of Blue-sky server binary execution for ELF32bit ARM such as Raspbian kernel. You can clone it and copy to executionable directory. 
+ Here is a client API caller(Demo version 1) of Blue-sky server binary execution for ELF32bit ARM such as Raspbian kernel. You can clone it and copy to executionable directory. 
 
  **For example (Linux):**
 
   ```shell 
    $> sudo cp SKYBLUECLIENT /usr/bin/.
+
+   $> sudo chmod 744 SKYBLUECLIENT
 
    $> edIP="Your RaspberryPI IP address."
 
